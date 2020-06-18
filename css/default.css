@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+.left {
+    width: 270px;
+    height: 100%;
+    float: left;
+    background-color: white;
+    position: fixed;
+    display: block;
+}
+.mid {margin-left: 270px;
+    height: 100%;
+}
+.bar {
+    width: 270px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    display: block;
+    float: left;
+    text-align: center;
+}
+.bar i {
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    float: left;
+    padding-top: 11px;
+}
+
+.leftimg {
+    width: 270px;
+    border-bottom: 1px solid gainsboro;
+}
+.leftimg img{
+    width: 180px;
+    padding: 10px;
+}
+.leftmenu {
+    width: 100%;
+}
+.leftmenu p {
+    padding: 10px;
+    font-weight: bold;
+}
+.header {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    height: 240px;
+    font-size: 50px;
+}
+.header p {
+    padding: 90px;
+}
+.section {
+    width: 100%;
+    height: 550px;
+    background-color: #f1f1f1;
+    margin: 10px 0 0 0;
+    float: right;
+}
+.section h1 {
+    font-size: 50px;
+    font-weight: normal;
+    padding: 30px 0 30px 20px;
+}
+.section > p{
+    font-size: 24px;
+    padding: 10px 0 30px 20px;
+}
+.section .button {
+    text-align: center;
+    width: 110px;
+    height: 15px;
+    background-color: teal;
+    padding: 10px 10px 10px 10px;
+    float: left;
+    margin: 5px 5px 5px 5px;
+    color: white;
+    font-size: 14px;
+}
+.word {
+    background-color: white;
+    margin: 60px 0 10px 0;
+    border-left: 3px solid teal;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.word p {
+    margin-left: 10px;
+}
+b {
+    font-weight: normal;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.brown {
+    color: sienna;
+}
+.green  {
+    color: seagreen;
+}
+.bottom {
+    width: 100%;
+    height: 80px;
+    background-color: #f1f1f1;
+    margin: 10px 0 0 20px;
+    float: right;
+    font-size: 16px;
+}
+.ad {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.ad a {
+    color: gray;
+}
+#leftside {
+    margin-left: 20px;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+i:hover{
+    background-color: gainsboro;
+    color: rgb(53, 53, 53);
+    cursor: pointer;
+}
+.leftimg:hover{
+    background-color: gainsboro;
+    cursor: pointer;
+}
+.leftmenu p:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
